@@ -3,171 +3,485 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Fady Khalil - PLC and Industrial Automation portfolio featuring Allen-Bradley PLC programming, ladder logic, HMI development, controls, and automation projects."
+  />
   <title>Fady Khalil | PLC & Automation Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <header>
-    <h1>Fady Khalil</h1>
-    <h2>Mechanical Engineering Graduate | PLC Programming | Industrial Automation | Controls</h2>
-    <p>
-      I design and document PLC-based automation systems, including ladder logic,
-      I/O mapping, sensor integration, control sequences, and troubleshooting workflows.
-    </p>
-    <div class="buttons">
-      <a href="#projects">View Projects</a>
-      <a href="#contact">Contact Me</a>
+  <!-- Navigation -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="#home">FK<span>.</span></a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="hero">
+    <div class="hero-glow hero-glow-one"></div>
+    <div class="hero-glow hero-glow-two"></div>
+
+    <div class="hero-inner">
+      <div class="eyebrow">PLC & INDUSTRIAL AUTOMATION PORTFOLIO</div>
+
+      <h1>Fady Khalil</h1>
+
+      <h2>
+        Mechanical Engineering Graduate
+        <span>•</span>
+        PLC Programming
+        <span>•</span>
+        Industrial Automation
+        <span>•</span>
+        Controls
+      </h2>
+
+      <p class="hero-copy">
+        I design and document PLC-based automation systems, including ladder logic,
+        I/O mapping, sensor integration, control sequences, HMI visualization, and
+        troubleshooting workflows.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-secondary" href="#contact">Contact Me</a>
+      </div>
+
+      <div class="hero-tags">
+        <span>Allen-Bradley</span>
+        <span>RSLogix 500</span>
+        <span>Studio 5000</span>
+        <span>Micro800 / Micro820</span>
+        <span>HMI</span>
+      </div>
     </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am a Mechanical Engineering graduate focused on PLC programming,
-      industrial automation, and control systems. My experience includes
-      Allen-Bradley PLC programming using RSLogix 500, Micro800 PLCs,
-      Connected Components Workbench, ladder logic, I/O mapping, sensors,
-      actuators, servo control, and automated inspection systems.
-    </p>
-    <p>
-      I am currently strengthening my hands-on industrial automation skills
-      through SolisPLC courses, with a focus on practical PLC troubleshooting,
-      controls logic, HMI concepts, and real-world manufacturing applications.
-    </p>
-  </section>
+  <main>
 
-  <section id="skills">
-    <h2>Technical Skills</h2>
-
-    <div class="grid">
-      <div>
-        <h3>PLC Programming</h3>
-        <p>
-          RSLogix 500, RSLogix 5000, Studio 5000, Connected Components Workbench, Ladder Logic, Timers,
-          Counters, Latches, Interlocks, Sequencing
-        </p>
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="section-heading">
+        <span class="section-number">01</span>
+        <div>
+          <p class="section-kicker">ABOUT</p>
+          <h2>About Me</h2>
+        </div>
       </div>
 
-      <div>
-        <h3>Controls & Automation</h3>
-        <p>
-          I/O Mapping, Sensor Integration, Motor Control, Servo Control,
-          Conveyor Systems, Fault Logic
-        </p>
+      <div class="about-card">
+        <div class="about-accent"></div>
+
+        <div class="about-content">
+          <p>
+            I am a Mechanical Engineering graduate focused on PLC programming,
+            industrial automation, and control systems. My experience includes
+            Allen-Bradley PLC programming using RSLogix 500, Micro800 PLCs,
+            Connected Components Workbench, ladder logic, I/O mapping, sensors,
+            actuators, servo control, and automated inspection systems.
+          </p>
+
+          <p>
+            I am currently strengthening my hands-on industrial automation skills
+            through SolisPLC courses, with a focus on practical PLC troubleshooting,
+            controls logic, HMI concepts, and real-world manufacturing applications.
+          </p>
+        </div>
+
+        <div class="about-side">
+          <div class="mini-stat">
+            <span class="mini-stat-label">FOCUS</span>
+            <strong>Controls & Automation</strong>
+          </div>
+
+          <div class="mini-stat">
+            <span class="mini-stat-label">PLATFORMS</span>
+            <strong>Allen-Bradley PLCs</strong>
+          </div>
+
+          <div class="mini-stat">
+            <span class="mini-stat-label">CURRENTLY BUILDING</span>
+            <strong>PLC + HMI Skills</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-alt">
+      <div class="section-heading">
+        <span class="section-number">02</span>
+        <div>
+          <p class="section-kicker">CAPABILITIES</p>
+          <h2>Technical Skills</h2>
+        </div>
       </div>
 
-      <div>
-        <h3>Industrial Systems</h3>
-        <p>
-          Automated Inspection, Assembly Stations, Quality Control,
-          HMI Concepts, Troubleshooting
-        </p>
-      </div>
-
-      <div>
-        <h3>Currently Improving</h3>
-        <p>
-          SolisPLC Training, RSLogix 5000 Practice, Analog Inputs, FactoryTalk View Concepts,
-          Studio 5000 Concepts, HMI Concepts
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects">
-    <h2>PLC & Automation Projects</h2>
-
-    <div class="project-card">
-      <h3>PLC-Based Automated Inspection and Sorting Cell</h3>
-
-      <figure class="project-media">
-        <img src="images/Automated%20Inspection.png" alt="Automated inspection PLC project screenshot">
-        <figcaption>Automated inspection and sorting PLC project screenshot.</figcaption>
-      </figure>
-
-      <p>
-        Designed a PLC-controlled automation cell that detects parts, performs inspection,
-        and sorts products using pass/fail logic.
+      <p class="section-intro">
+        PLC programming, controls logic, industrial automation, HMI concepts, and
+        troubleshooting skills demonstrated throughout the projects below.
       </p>
 
-      <ul>
-        <li><strong>PLC:</strong> Allen-Bradley Micro800 / Micro820</li>
-        <li><strong>Software:</strong> Connected Components Workbench</li>
-        <li><strong>Skills:</strong> Ladder logic, I/O mapping, sensors, diverter control, sequence logic</li>
-      </ul>
-    </div>
+      <div class="skills-grid">
 
- <div class="project-card">
-  <h3>PLC/HMI Traffic Light Control System</h3>
+        <article class="skill-card">
+          <div class="skill-icon">01</div>
+          <h3>PLC Programming</h3>
+          <div class="skill-list">
+            <span>RSLogix 500</span>
+            <span>RSLogix 5000</span>
+            <span>Studio 5000</span>
+            <span>Connected Components Workbench</span>
+            <span>Ladder Logic</span>
+            <span>Timers</span>
+            <span>Counters</span>
+            <span>Latches</span>
+            <span>Interlocks</span>
+            <span>Sequencing</span>
+          </div>
+        </article>
 
-  <p>
-    Developed a PLC-based traffic light control system using ladder logic and HMI
-    visualization. The system controls red, yellow, and green traffic light states
-    through timer-based sequencing and tag-based control logic.
-  </p>
+        <article class="skill-card">
+          <div class="skill-icon">02</div>
+          <h3>Controls & Automation</h3>
+          <div class="skill-list">
+            <span>I/O Mapping</span>
+            <span>Sensor Integration</span>
+            <span>Motor Control</span>
+            <span>Servo Control</span>
+            <span>Conveyor Systems</span>
+            <span>Fault Logic</span>
+          </div>
+        </article>
 
-  <div class="project-gallery two-up">
-    <figure>
-      <img src="images/hmi_traffic_light.png" alt="HMI screen for traffic light control system">
-      <figcaption>HMI screen showing the traffic intersection layout and signal status.</figcaption>
-    </figure>
+        <article class="skill-card">
+          <div class="skill-icon">03</div>
+          <h3>Industrial Systems</h3>
+          <div class="skill-list">
+            <span>Automated Inspection</span>
+            <span>Assembly Stations</span>
+            <span>Quality Control</span>
+            <span>HMI Concepts</span>
+            <span>Troubleshooting</span>
+          </div>
+        </article>
+      </div>
 
-    <figure>
-      <img src="images/logic_traffic_light.png" alt="RSLogix ladder logic for traffic light control system">
-      <figcaption>RSLogix ladder logic used for red, yellow, and green light sequencing.</figcaption>
-    </figure>
-  </div>
+      <div class="learning-card">
+        <div>
+          <p class="section-kicker">CURRENTLY IMPROVING</p>
+          <h3>Active Learning Focus</h3>
+        </div>
 
-  <p>
-    The project demonstrates how a PLC can manage a repeating control sequence,
-    update output states, and communicate system status to an HMI interface for
-    operator monitoring.
-  </p>
+        <div class="learning-tags">
+          <span>SolisPLC Training</span>
+          <span>RSLogix 5000 Practice</span>
+          <span>Analog Inputs</span>
+          <span>FactoryTalk View Concepts</span>
+          <span>Studio 5000 Concepts</span>
+          <span>HMI Concepts</span>
+        </div>
+      </div>
+    </section>
 
-  <ul>
-    <li><strong>Software:</strong> RSLogix 500 / Studio 5000 concepts, HMI development concepts</li>
-    <li><strong>PLC Concepts:</strong> Ladder logic, timers, output sequencing, interlocks, and internal control bits</li>
-    <li><strong>HMI Concepts:</strong> Interface tags, animated light indicators, status display, and operator visualization</li>
-    <li><strong>Skills:</strong> Sequence programming, PLC-to-HMI communication, troubleshooting, and process visualization</li>
-  </ul>
-</div>
+    <!-- Projects -->
+    <section id="projects" class="section projects-section">
+      <div class="section-heading">
+        <span class="section-number">03</span>
+        <div>
+          <p class="section-kicker">PROJECT WORK</p>
+          <h2>PLC & Automation Projects</h2>
+        </div>
+      </div>
 
-    <div class="project-card">
-      <h3>RSLogix 500 Ladder Logic Practice Projects</h3>
+      <!-- Project 1 -->
+      <article class="project">
+        <div class="project-topline">
+          <span class="project-index">PROJECT 01</span>
+          <span class="project-type">PLC AUTOMATION CELL</span>
+        </div>
 
-      <p>
-        Developed ladder logic programs to practice real industrial control concepts,
-        including start/stop circuits, timers, counters, latches, interlocks, and fault reset logic.
-      </p>
+        <div class="project-title-row">
+          <h3>PLC-Based Automated Inspection and Sorting Cell</h3>
+        </div>
 
-      <ul>
-        <li><strong>Software:</strong> RSLogix 500</li>
-        <li><strong>Skills:</strong> Ladder logic, MicroLogix-style programming, troubleshooting</li>
-      </ul>
-    </div>
+        <div class="project-layout project-layout-featured">
+          <figure class="project-visual">
+            <img
+              src="images/Automated%20Inspection.png"
+              alt="Automated inspection and sorting PLC project screenshot"
+            />
+            <figcaption>
+              Automated inspection and sorting PLC project screenshot.
+            </figcaption>
+          </figure>
 
-    <div class="project-card">
-      <h3>Water Tank Level Control System</h3>
+          <div class="project-details">
+            <p class="project-summary">
+              Designed a PLC-controlled automation cell that detects parts,
+              performs inspection, and sorts products using pass/fail logic.
+            </p>
 
-      <p>
-        Built a control sequence for filling and draining a tank based on level sensor feedback.
-        The logic is designed around input monitoring, output control, and safe operating states.
-      </p>
+            <div class="detail-list">
+              <div>
+                <span>PLC</span>
+                <p>Allen-Bradley Micro800 / Micro820</p>
+              </div>
 
-      <ul>
-        <li><strong>Skills:</strong> Sensor input logic, valve control, pump control, safety interlocks</li>
-      </ul>
-    </div>
+              <div>
+                <span>Software</span>
+                <p>Connected Components Workbench</p>
+              </div>
 
-  </section>
+              <div>
+                <span>Skills</span>
+                <p>
+                  Ladder logic, I/O mapping, sensors, diverter control, sequence logic
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:fady.khalil5@icloud.com">fady.khalil5@icloud.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/fady-khalil-84aa421b5" target="_blank">www.linkedin.com/in/fady-khalil-84aa421b5</a></p>
-    <p>GitHub: <a href="https://github.com/FadyKhalil-Control" target="_blank">github.com/FadyKhalil-Control</a></p>
-  </section>
+        <div class="flow-strip">
+          <div><span>01</span><strong>Detect Parts</strong></div>
+          <div><span>02</span><strong>Perform Inspection</strong></div>
+          <div><span>03</span><strong>Sort Pass / Fail</strong></div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project">
+        <div class="project-topline">
+          <span class="project-index">PROJECT 02</span>
+          <span class="project-type">PLC + HMI</span>
+        </div>
+
+        <div class="project-title-row">
+          <h3>PLC/HMI Traffic Light Control System</h3>
+        </div>
+
+        <p class="project-summary project-summary-wide">
+          Developed a PLC-based traffic light control system using ladder logic and
+          HMI visualization. The system controls red, yellow, and green traffic light
+          states through timer-based sequencing and tag-based control logic.
+        </p>
+
+        <div class="project-gallery two-up">
+          <figure>
+            <div class="image-frame">
+              <img
+                src="images/hmi_traffic_light.png"
+                alt="HMI screen for traffic light control system"
+              />
+            </div>
+            <figcaption>
+              HMI screen showing the traffic intersection layout and signal status.
+            </figcaption>
+          </figure>
+
+          <figure>
+            <div class="image-frame">
+              <img
+                src="images/logic_traffic_light.png"
+                alt="RSLogix ladder logic for traffic light control system"
+              />
+            </div>
+            <figcaption>
+              RSLogix ladder logic used for red, yellow, and green light sequencing.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="traffic-project-bottom">
+          <div class="project-description-box">
+            <p>
+              The project demonstrates how a PLC can manage a repeating control
+              sequence, update output states, and communicate system status to an
+              HMI interface for operator monitoring.
+            </p>
+          </div>
+
+          <div class="detail-list compact">
+            <div>
+              <span>Software</span>
+              <p>RSLogix 500 / Studio 5000 concepts, HMI development concepts</p>
+            </div>
+
+            <div>
+              <span>PLC Concepts</span>
+              <p>
+                Ladder logic, timers, output sequencing, interlocks, and internal
+                control bits
+              </p>
+            </div>
+
+            <div>
+              <span>HMI Concepts</span>
+              <p>
+                Interface tags, animated light indicators, status display, and
+                operator visualization
+              </p>
+            </div>
+
+            <div>
+              <span>Skills</span>
+              <p>
+                Sequence programming, PLC-to-HMI communication, troubleshooting,
+                and process visualization
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project compact-project">
+        <div class="project-topline">
+          <span class="project-index">PROJECT 03</span>
+          <span class="project-type">LADDER LOGIC PRACTICE</span>
+        </div>
+
+        <div class="project-title-row">
+          <h3>RSLogix 500 Ladder Logic Practice Projects</h3>
+        </div>
+
+        <p class="project-summary project-summary-wide">
+          Developed ladder logic programs to practice real industrial control
+          concepts, including start/stop circuits, timers, counters, latches,
+          interlocks, and fault reset logic.
+        </p>
+
+        <div class="concept-grid">
+          <div><strong>Start / Stop</strong><span>Machine control circuits</span></div>
+          <div><strong>Timers</strong><span>Time-based control logic</span></div>
+          <div><strong>Counters</strong><span>Event and cycle counting</span></div>
+          <div><strong>Latches</strong><span>State retention logic</span></div>
+          <div><strong>Interlocks</strong><span>Conditional control logic</span></div>
+          <div><strong>Fault Reset</strong><span>Recovery and reset logic</span></div>
+        </div>
+
+        <div class="project-meta-row">
+          <div>
+            <span>SOFTWARE</span>
+            <strong>RSLogix 500</strong>
+          </div>
+
+          <div>
+            <span>SKILLS</span>
+            <strong>Ladder logic • MicroLogix-style programming • Troubleshooting</strong>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="project compact-project">
+        <div class="project-topline">
+          <span class="project-index">PROJECT 04</span>
+          <span class="project-type">PROCESS CONTROL</span>
+        </div>
+
+        <div class="project-title-row">
+          <h3>Water Tank Level Control System</h3>
+        </div>
+
+        <div class="water-layout">
+          <div>
+            <p class="project-summary">
+              Built a control sequence for filling and draining a tank based on
+              level sensor feedback. The logic is designed around input monitoring,
+              output control, and safe operating states.
+            </p>
+
+            <div class="water-flow">
+              <div>
+                <span>01</span>
+                <strong>Monitor Input</strong>
+              </div>
+              <div>
+                <span>02</span>
+                <strong>Evaluate Logic</strong>
+              </div>
+              <div>
+                <span>03</span>
+                <strong>Control Outputs</strong>
+              </div>
+              <div>
+                <span>04</span>
+                <strong>Maintain Safe States</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="water-skills">
+            <span class="section-kicker">SKILLS DEMONSTRATED</span>
+            <ul>
+              <li>Sensor input logic</li>
+              <li>Valve control</li>
+              <li>Pump control</li>
+              <li>Safety interlocks</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+      <div class="contact-inner">
+        <div>
+          <p class="section-kicker light">CONTACT</p>
+          <h2>Let's connect.</h2>
+          <p>
+            Interested in PLC programming, industrial automation, controls, or
+            engineering opportunities? Feel free to reach out.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:fady.khalil5@icloud.com">
+            <span>Email</span>
+            <strong>fady.khalil5@icloud.com</strong>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/fady-khalil-84aa421b5"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>LinkedIn</span>
+            <strong>View Profile ↗</strong>
+          </a>
+
+          <a
+            href="https://github.com/FadyKhalil-Control"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>GitHub</span>
+            <strong>View Projects ↗</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Fady Khalil • PLC & Automation Portfolio</p>
+  </footer>
 
 </body>
 </html>
