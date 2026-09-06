@@ -1,0 +1,54 @@
+/* LabVIEW media fix layered over the restored navy/cyan portfolio theme. The existing image files are the original screenshots extracted from the portfolio PDF; this layout displays each entire image without cropping. */
+.labview-concept {
+  min-height: 0 !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.55fr) minmax(280px, .9fr) !important;
+  gap: 16px;
+  align-items: start;
+  padding: 14px;
+  background: #eef4f8 !important;
+  border: 1px solid #d8e2ea;
+  border-radius: 18px;
+  overflow: visible !important;
+}
+
+.labview-concept > * {
+  display: none !important;
+}
+
+.labview-concept::before,
+.labview-concept::after {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid #d8e2ea;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(9, 31, 49, .06);
+}
+
+.labview-concept::before {
+  aspect-ratio: 1192 / 637;
+  background-image: url('images/labview_scada_front_panel.png');
+}
+
+.labview-concept::after {
+  aspect-ratio: 955 / 836;
+  background-image: url('images/labview_block_diagram.png');
+}
+
+@media (max-width: 900px) {
+  .labview-concept {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 620px) {
+  .labview-concept {
+    padding: 8px;
+    gap: 10px;
+  }
+}
